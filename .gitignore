@@ -1,8 +1,6 @@
-/public
-/resources
-/exampleSite/public
-/exampleSite/resources
-/node_modules
-.vscode
+node_modules
+public
+resources
+.netlify
 .hugo_build.lock
-*.swp
+**/**/.DS_Store
