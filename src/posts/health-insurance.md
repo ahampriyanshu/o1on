@@ -1,27 +1,11 @@
 ---
 title: Health Insurance
-description: Health Insurance is not a scam
-date: '2023-01-01'
+description: This is the summary of the post
+date: '2023-09-16'
 categories:
   - personal
   - insurance
 published: true
 ---
 
-## Table of Contents
-
-## Markdown
-
-```ts
-const a = 1
-console.log(hey)
-```
-
-### Svelte
-
-Media inside the **static** folder is served from `/`.
-
-- This
-- is
-- a
-- list
+## Why health Insurance?
