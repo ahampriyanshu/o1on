@@ -1,1 +1,1 @@
-<h1>Welcome to O1ON</h1>
+<h1>O1ON</h1>
