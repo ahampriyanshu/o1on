@@ -4,6 +4,13 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<link rel="icon" href="https://fav.farm/🖥" />
+		<script type="module">
+			const theme = localStorage.getItem('theme')
+
+			theme
+				? document.documentElement.setAttribute('theme', theme)
+				: localStorage.setItem('theme', 'dark')
+		</script>
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
