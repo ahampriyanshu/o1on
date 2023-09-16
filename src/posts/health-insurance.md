@@ -25,5 +25,3 @@ Media inside the **static** folder is served from `/`.
 - is
 - a
 - list
-
-![Svelte](favicon.png)
