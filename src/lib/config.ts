@@ -1,4 +1,4 @@
-import { dev } from "$app/environment"
+import { dev } from '$app/environment'
 
 export const title = 'O1ON'
 export const description = 'Personal Finance, simplified.'
