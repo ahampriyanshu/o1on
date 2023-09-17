@@ -22,7 +22,10 @@ const config = {
 	kit: {
 		adapter: adapter({
 			pages: 'build',
-			assets: 'build'
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
 		})
 	}
 }

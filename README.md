@@ -19,5 +19,6 @@ pnpm build
 
 - [Svelte](https://svelte.dev/)
 - [DaisyUI](https://daisyui.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Lucide](https://lucide.dev/)
 - [Github Pages](https://pages.github.com/)
