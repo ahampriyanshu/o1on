@@ -3,9 +3,6 @@
 	import Footer from './footer.svelte'
 	import PageTransition from './transition.svelte'
 	import '../app.css'
-	import 'open-props/style'
-	import 'open-props/normalize'
-	import 'open-props/buttons'
 	export let data
 </script>
 

@@ -18,7 +18,6 @@ yarn build
 ## Attribution
 
 - [Svelte](https://svelte.dev/)
-- [SvelteKit](https://kit.svelte.dev/)
-- [TailwindCSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
 - [Lucide](https://lucide.dev/)
 - [Github Pages](https://pages.github.com/)
