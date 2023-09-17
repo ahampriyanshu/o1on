@@ -6,7 +6,7 @@ Personal finances, o(n)e click away.
 ![Tag version](https://img.shields.io/github/v/tag/ahampriyanshu/o1on)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ahampriyanshu/o1on/main)
 
-[Demo](https://ahampriyanshu.com) &nbsp; | &nbsp; [Setup](./##Usage) &nbsp; | &nbsp; [Docs](https://ahampriyanshu.com)
+[Live](https://o1on.com) &nbsp; | &nbsp; [Setup](./##Usage)
 
 ## Setup
 

@@ -2,22 +2,13 @@
 	import Header from './header.svelte'
 	import Footer from './footer.svelte'
 	import PageTransition from './transition.svelte'
-	import '../app.css'
 	export let data
+	import "../app.scss";
 </script>
 
-<div class="layout">
-	<Header />
-	<main>
-		<PageTransition url={data.url}>
-			<slot />
-		</PageTransition>
-	</main>
-	<Footer />
-</div>
-
-<style>
-	.layout {
+<style lang="scss">
+   
+   .layout {
 		height: 100%;
 		max-inline-size: 1440px;
 		display: grid;
@@ -36,3 +27,13 @@
 		}
 	}
 </style>
+
+<div class="layout">
+	<Header />
+	<main>
+		<PageTransition url={data.url}>
+			<slot />
+		</PageTransition>
+	</main>
+	<Footer />
+</div>
