@@ -11,14 +11,14 @@ Personal finances, o(n)e click away.
 ## Setup
 
 ```bash
-pnpm i
-pnpm dev
+yarn
+yarn dev
 ```
 
 ## Build
 
 ```bash
-pnpm build
+yarn build
 ```
 
 ## Attribution
