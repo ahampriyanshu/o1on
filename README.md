@@ -24,5 +24,5 @@ pnpm build
 ## Attribution
 
 - [Svelte](https://svelte.dev/)
-- [Lucide](https://lucide.dev/)
+- [Lucide Icons](https://lucide.dev/)
 - [Github Pages](https://pages.github.com/)

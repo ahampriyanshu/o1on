@@ -3,7 +3,7 @@
 	import Footer from './footer.svelte'
 	import PageTransition from './transition.svelte'
 	export let data
-	import "../app.scss";
+	import "/src/assets/scss/base.scss";
 </script>
 
 <style lang="scss">
