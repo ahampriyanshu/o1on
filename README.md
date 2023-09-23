@@ -1,6 +1,6 @@
 # o1on
 
-Personal finances, o(n)e click away.
+Personalised cheatsheet for Personal Finance.
 
 ![Yazi hugo theme](https://img.shields.io/github/license/ahampriyanshu/o1on)
 ![Tag version](https://img.shields.io/github/v/tag/ahampriyanshu/o1on)

@@ -94,3 +94,11 @@ a {
 		color: darken($link-color, 15%);
 	}
 }
+
+img,
+video,
+audio,
+iframe,
+object {
+	max-width: 100%;
+}
