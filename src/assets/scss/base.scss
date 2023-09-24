@@ -4,7 +4,6 @@
 @import 'typography.scss';
 @import 'variables.scss';
 
-
 html {
 	box-sizing: border-box;
 }
@@ -38,7 +37,6 @@ body {
 	background: $primary-color;
 	color: white;
 }
-
 
 // :root {
 // 	color-scheme: dark;
@@ -75,11 +73,24 @@ body {
 
 	background-color: black;
 	color: white;
-	p, h1, h2, h3, h4, li, ul, span, date {
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	li,
+	ul,
+	span,
+	date {
 		color: white;
 	}
-	.prose{
-		p, h2, h3, h4, li, ul {
+	.prose {
+		p,
+		h2,
+		h3,
+		h4,
+		li,
+		ul {
 			color: white;
 		}
 	}
@@ -90,7 +101,6 @@ body {
 
 	background-color: white;
 	color: black;
-
 }
 
 ul {
@@ -126,10 +136,10 @@ object {
 
 .prose :is(ul, ol) {
 	list-style-type: '💵';
-    li{
-        color: #212121;
-        // padding-left: 12px;
-    }
+	li {
+		color: #212121;
+		// padding-left: 12px;
+	}
 }
 
 .prose :is(ul, ol) li {
