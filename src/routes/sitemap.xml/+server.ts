@@ -15,7 +15,10 @@ export async function GET({ fetch }) {
 	return response
 }
 
-const sitemap = (posts: Post[], pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
+const sitemap = (posts: Post[], pages: string[]) => { 
+  
+  const latestDate = posts[0].date;
+  return `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
@@ -25,8 +28,9 @@ const sitemap = (posts: Post[], pages: string[]) => `<?xml version="1.0" encodin
   xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
 >
   <url>
-    <loc>${config.title}</loc>
+    <loc>${config.url}</loc>
     <changefreq>daily</changefreq>
+    <lastmod>${latestDate}</lastmod>
     <priority>1</priority>
   </url>
   ${pages.map((page) => 
@@ -48,3 +52,4 @@ const sitemap = (posts: Post[], pages: string[]) => `<?xml version="1.0" encodin
   `
   : null).join('')}
 </urlset>`
+  };
